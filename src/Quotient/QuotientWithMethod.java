@@ -16,8 +16,9 @@ public class QuotientWithMethod {
     Scanner input = new Scanner(System.in);
 
     // Prompt the user to enter two integers
-    System.out.print("Enter two integers: ");
+    System.out.print("Enter the first integer: ");
     int number1 = input.nextInt();
+    System.out.print("Enter the second integer: ");
     int number2 = input.nextInt();
 
     int result = quotient(number1, number2);
