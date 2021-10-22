@@ -5,7 +5,7 @@ import java.util.Scanner;
 /** Method to quotient Add logic to avoid zero divisor */
 public class QuotientWithMethod {
   public static int quotient(int number1, int number2) {
-    if (number2 == 0) { // if the quotient is equal to 0
+    if (number2 == 0) { // if the quotient is equal to 0; use logic to avoid exception
       System.out.println("Divisor cannot be zero");
       System.exit(1); // manually exit the procedure
     }

@@ -23,6 +23,7 @@ public class TestException {
         System.out.print("method: " + traceElements[i].getMethodName());
         System.out.print(", from (" + traceElements[i].getClassName() + ":");
         System.out.println(traceElements[i].getLineNumber() + ")");
+        // what it shows
         // method sum(TestException:32)
         // method main(TestException:4)
 
